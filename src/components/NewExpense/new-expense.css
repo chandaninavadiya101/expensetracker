@@ -1,0 +1,46 @@
+.ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    min-width: 65vw;
+    background-color: rgb(174, 133, 133);
+    border-radius: 5px;
+    gap: 3vh;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    width:80%;
+}
+
+.bottom{
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+input{
+    width: 15vw;
+    height: 6vh;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+}
+
+input:focus{
+   outline: none;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(138, 130, 130);
+    color: white;
+    border-radius: 5px;
+}

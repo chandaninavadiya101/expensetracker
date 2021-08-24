@@ -1,0 +1,21 @@
+
+
+.expense_items{
+    width: 80vw;
+    padding: 5px;
+    background-color:rgb(222, 218, 218);
+    border-radius: 2px;
+    box-shadow: rgba(194, 20, 20, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: smaller;
+}
+
+.amount-ctn,.date-ctn,.title-ctn{
+    background-color:rgba(143, 143, 196, 0.057);
+    padding: 10px;
+    border-radius: 2px;
+    color: rgb(46, 46, 46);
+}
